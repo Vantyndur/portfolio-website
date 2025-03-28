@@ -308,6 +308,9 @@ a {
         margin-top:15px;
         margin-bottom:15px;
     }
+    #hd2 h1 {
+        font-size: 28px;
+    }
     #photoNameDiv{
         display: flex;
         flex-direction: column;
