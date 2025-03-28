@@ -306,6 +306,15 @@ a {
         margin-top:14px;
         margin-bottom:14px;
     }
+    #contactDiv{
+        flex-direction: column;
+        justify-content: start;
+    }
+    #contactDiv > div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 @keyframes asideAnim{
