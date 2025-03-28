@@ -40,7 +40,8 @@ header {
     height: 100%;
 }
 #hd2 {
-    min-width: fit-content;
+    padding: 10px;
+    min-width: max-content;
     height: 100%;
     flex-grow: 1;
     display: flex;
