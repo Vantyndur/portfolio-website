@@ -170,6 +170,7 @@ footer > h2 {
 .container-title {
 
     font-size: 27px;
+    text-wrap: nowrap;
     margin: 0;
     padding-top: 10px;
     padding-left: 20px;
@@ -182,7 +183,6 @@ footer > h2 {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
-
 
 .title {
     font-size: 22px;
@@ -286,14 +286,19 @@ a {
         padding-left: 40px;
         padding-right: 40px;
     }
+    .container-title {
+        font-size: 25px;
+    }
 }
 @media (max-width: 660px) {
+    article {
+        padding: 0;
+    }
     #photo{
-        position: static
+        margin:0px;
     }
     #name {
-        margin:20px;
-        margin-top:30px;
+        margin-top:15px;
     }
     #photoNameDiv{
         display: flex;
@@ -335,7 +340,9 @@ a {
         flex-direction: column;
         justify-content: space-between;
     }
-    
+    .container-title {
+        font-size: 22px;
+    }
 }
 
 @keyframes asideAnim{
