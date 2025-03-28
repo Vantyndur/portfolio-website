@@ -22,6 +22,7 @@ body{
     align-items: stretch;
 }
 header {
+    width: 100%;
     user-select: none;
     position: relative;
     padding: 0;
