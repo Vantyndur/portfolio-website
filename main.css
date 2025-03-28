@@ -271,6 +271,9 @@ a {
     #hd1{
         display: none;
     }
+    #hd2{
+        width:100%;
+    }
     .container-content > * {
 
         margin-left: 40px;
@@ -304,9 +307,6 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    #hd1{
-        display: none;
     }
     #pczlogo{
         width:100%;
