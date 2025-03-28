@@ -330,10 +330,12 @@ a {
         margin-bottom: 15px;
         padding-left: 20px;
         padding-right: 20px;
-
+    }
+    #experienceDiv .title, #educationDiv .title {
         flex-direction: column;
         justify-content: space-between;
     }
+    
 }
 
 @keyframes asideAnim{
