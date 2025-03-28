@@ -70,7 +70,6 @@ section {
     margin: 0;
     flex-grow: 1;
     max-width: 100%;
-    overflow-x: hidden;
     display: flex;
     flex-direction: row;
 }
@@ -150,7 +149,6 @@ footer > h2 {
 .container {
     position: relative;
     margin: 20px;
-    
 }
 .container-content {
 
