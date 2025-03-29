@@ -8,6 +8,7 @@ muted moss #595f39
 
 * {
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 html, body {
     margin: 0;
@@ -152,7 +153,9 @@ footer > h2 {
 
 .container {
     position: relative;
-    margin: 20px;
+    margin:0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .container-content {
 
