@@ -3,20 +3,20 @@ let show = false;
 document.addEventListener('click', function(event){
     if(areProjectsShown){
         if (!aside.contains(event.target) && !myProjectsButton.contains(event.target)) {
-            document.getElementById("aside").style.right = "-300px";
+            document.getElementById("aside").style.translate= "300px";
             areProjectsShown = !areProjectsShown;
         }
     }
 });
 document.addEventListener('scroll', function(){
     if(areProjectsShown){
-        document.getElementById("aside").style.right = "-300px";
+        document.getElementById("aside").style.translate= "300px";
             areProjectsShown = !areProjectsShown;
     }else if(show){
         if(window.scrollY == 0){
-            document.getElementById("aside").style.right = (areProjectsShown)? "-300px" : "0";
-            areProjectsShown = !areProjectsShown;
-            show=false;
+            document.getElementById("aside").style.translate = "0px";
+            areProjectsShown = true;
+            show = false;
         }
     }
 })
@@ -26,7 +26,7 @@ document.getElementById("myProjectsButton").addEventListener('click' , function(
         window.scrollTo({top:0, behavior:"smooth"});
     } else{
     }
-    document.getElementById("aside").style.right = (areProjectsShown)? "-300px" : "0";
+    document.getElementById("aside").style.translate= (areProjectsShown)? "300px" : "0px";
     areProjectsShown = !areProjectsShown;
     
     
