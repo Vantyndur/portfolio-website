@@ -118,7 +118,7 @@ aside > ul > li:hover {
     color:#1B1B1B;
 }
 footer {
-    padding: 0;
+    padding: 2px;
     margin: 0;
     flex-grow: 0;
     width: 100%;
