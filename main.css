@@ -140,6 +140,9 @@ footer > h2 {
     font-size: 30px;
     color: #C4C5BA; 
 }
+footer > h3 {
+    text-align: center;
+}
 #contactDiv > div{
     display: flex;
     flex-direction: row;
